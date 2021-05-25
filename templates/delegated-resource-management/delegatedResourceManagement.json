@@ -7,7 +7,7 @@
             "metadata": {
                 "description": "Specify a unique name for your offer"
             },
-            "defaultValue": "<to be filled out by MSP> Specify a title for your offer"
+            "defaultValue": "360IT Partners Managed Services"
 
         },
         "mspOfferDescription": {
@@ -15,14 +15,14 @@
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "<to be filled out by MSP> Provide a brief description of your offer"
+            "defaultValue": "360IT Partners Managed Services"
         },
         "managedByTenantId": {
             "type": "string",
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
             },
-            "defaultValue": "<to be filled out by MSP> Provide your tenant id"
+            "defaultValue": "f5f3fb63-57f4-4bc2-b7da-38483e474452"
         },
         "authorizations": {
             "type": "array",
@@ -30,16 +30,16 @@
                 "description": "Specify an array of objects, containing tuples of Azure Active Directory principalId, a Azure roleDefinitionId, and an optional principalIdDisplayName. The roleDefinition specified is granted to the principalId in the provider's Active Directory and the principalIdDisplayName is visible to customers."
             },
             "defaultValue": [
-                { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
-                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "PIM_Group" 
-                }, 
-                { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
-                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "PIM_Group" 
-                }   
+                {
+                  "principalId": "5a61c214-7ada-47e4-9b6a-d11dba0aab09",
+                  "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                  "principalIdDisplayName": "360IT-Azure-Lighthouse-Users"
+                },
+                {
+                  "principalId": "19b4d402-b88e-4e04-a98c-e4b2acfb6307",
+                  "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+                  "principalIdDisplayName": "360IT-Senior-Team"
+                }
             ]
         }              
     },
@@ -82,4 +82,4 @@
         }
     }
 }
-test
+
