@@ -36,6 +36,11 @@
                   "principalIdDisplayName": "360IT-Azure-Lighthouse-Users"
                 },
                 {
+                  "principalId": "5a61c214-7ada-47e4-9b6a-d11dba0aab09",
+                  "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                  "principalIdDisplayName": "360IT-Azure-Lighthouse-Users"
+                },                
+                {
                   "principalId": "19b4d402-b88e-4e04-a98c-e4b2acfb6307",
                   "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
                   "principalIdDisplayName": "360IT-Senior-Team"
